@@ -1,11 +1,11 @@
 # Udacity Deep Reinforcement Learning - Project 2 - Continuous Control
 ----------------------------------------------------------------------
 
-This is the repository for Project 1 - Navigation from the Deep Reinforcement Learning Nanodegree of Udacity.
+This is the report for Project 2 - Continuous control from the Deep Reinforcement Learning Nanodegree of Udacity. 
 
 ## Project details
 
-This is the report for Project 2 - Continuous control from the Deep Reinforcement Learning Nanodegree of Udacity. The task is to train an agent to maintain the position of a double-jointed arm at a moving target location for as many time steps as possible. The task is continuous, although the episodes end after a certain time.
+The task is to train an agent to maintain the position of a double-jointed arm at a moving target location for as many time steps as possible. The task is continuous, although the episodes end after a certain time.
 
 A reward of 0.1 is provided for each step that the agent’s hand is in the goal location. In order to solve the environment, the agent must pick an average score of 30+ over 100 consecutive episodes. The observation space consists of 33 variables corresponding to position, rotation, velocity, and angular velocities of the arm. Each action is a vector with four numbers, corresponding to torque applicable to two joints. Every entry in the action vector must be a number between -1 and 1.
 
