@@ -1,5 +1,5 @@
-# Udacity Deep Reinforcement Learning - Project 1 - Navigation
---------------------------------------------------------------
+# Udacity Deep Reinforcement Learning - Project 2 - Continuous Control
+----------------------------------------------------------------------
 
 This is the repository for Project 1 - Navigation from the Deep Reinforcement Learning Nanodegree of Udacity.
 
