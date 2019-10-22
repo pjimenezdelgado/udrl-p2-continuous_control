@@ -11,9 +11,13 @@ A reward of 0.1 is provided for each step that the agent’s hand is in the goal
 
 ## Getting Started
 
-The top level of the project has been developed as a Jupyter notebook (`Navigation.ipynb`) in Python 3, thus make sure that you have a running Python and Jupyter working installation.
+The top level of the project has been developed as a Jupyter notebook (`Continuous_Control.ipynb`) in Python 3, thus make sure that you have a running Python and Jupyter working installation.
 
-The world is provided as an Unity environment and is external to the project itself. To install the environment you will need a distribution of the ml-agents package from Unity. Please follow the installation instructions there, as this may change, in our case we followed the installation instructions of Udacity.
+The world is provided as an Unity environment titled "Reacher", and is external to the project itself. To install the environment you will need a distribution of the ml-agents package from Unity. The location of the repo could potentially change, but at the moment of writing the link to the environment is:
+
+`https://github.com/Unity-Technologies/ml-agents/blob/master/docs/Learning-Environment-Examples.md#reacher`
+
+Please follow the installation instructions there, as these may change; in our case we used the environment supplied by Udacity. 
 
 The agent is provided in `dpqg_agent.py`, and the underlying neural network models in `model.py` (both these files were obtained from Udacity Qnetwork project and tweaked). For these to run one needs to install Pytorch; other packages that need to be imported directly are numpy, and matplotlib. To install them, please run
 
