@@ -40,7 +40,7 @@ et-xmlfile==1.0.1
 fastcache==1.0.2
 fix-yahoo-finance==0.0.19
 Flask==0.12.2
-Flask-Cors==3.0.3
+Flask-Cors==3.0.9
 gevent==1.2.2
 gmpy2==2.0.8
 good-morning==0.1.0
